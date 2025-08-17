@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Tailwind</title>
-    <link href="./src/output.css" rel="stylesheet">
-    <link href="./src/input.css" rel="stylesheet">
-</head>
-<body>
-    <nav>
+    <link href="./src/output.css" rel="stylesheet" />
+    <link href="./src/input.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <nav></nav>
 
-    </nav>
-    <main id="home" class="pt-">
-        <!-- Hero Section Start-->
-
-
+    <!-- Hero Section Start-->
+    <main id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="font-bold text-blue-700 text-4xl">
+              Hi, I'm Rifqi Fauzan
+            </h1>
+            <h2 class="font-medium text-slate-500 text-lg">
+              I am a Software Engineer
+            </h2>
+            <p class="font-medium text-slate-400 mb-10 leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+              quae magnam exercitationem laboriosam, aliquam dolores harum fugit
+              minima, possimus distinctio iure doloremque atque in corrupti
+              saepe quas! At, ad ab.
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-blue-700 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              >Download CV</a
+            >
+          </div>
+          <div class="w-full self-end px-4 relative lg:w-1/2">
+            <img
+              src="./images/Foto-casual.png"
+              alt="Rifqi Fauzan Photo"
+              class="max-w-full mx-auto"
+            />
+          </div>
+        </div>
+      </div>
     </main>
-    <section>
-
-    </section>
-</body>
+    <!-- Hero Section End-->
+    <section></section>
+  </body>
 </html>
